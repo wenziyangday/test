@@ -1,0 +1,135 @@
+.wrapper {
+  margin: 0 auto;
+}
+.wrapper header {
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper nav {
+  display: flex;
+  padding: 0.8rem;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background: #1d1d1d;
+}
+.wrapper nav a {
+  display: block;
+  color: #fff;
+}
+.wrapper nav a:hover,
+.wrapper nav a.active {
+  color: #fff100;
+}
+.wrapper .banner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .banner .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.wrapper .all-title {
+  position: relative;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #d7d7d7;
+}
+.wrapper .all-title .line {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  width: 3rem;
+  height: 1px;
+  margin: 0 auto;
+  background: #ff4a00;
+  z-index: 1;
+}
+.wrapper .color-fff {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.wrapper .border-t-0 {
+  border-bottom: 0;
+}
+.wrapper .subtitle {
+  font-size: 1rem;
+}
+.wrapper .telphone {
+  margin: 1rem auto 0;
+  padding: 0.5rem 1rem;
+  width: 18rem;
+  text-align: center;
+  font-size: 1.6rem;
+  background: #5a5a5a;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+.wrapper .no-bg {
+  background: none;
+}
+.wrapper .footer {
+  margin: 1rem 0 5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.wrapper .footer .column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  border-bottom: 4px solid #07518e;
+  margin-bottom: 1rem;
+}
+.wrapper .footer .column a {
+  display: block;
+  flex: 1;
+  line-height: 1;
+  margin: 0.5rem 0 1.5rem;
+  border-right: 1px solid #202020;
+}
+.wrapper .footer .column a:last-child {
+  border-right: 0;
+}
+.wrapper .footer .info-contact h2 {
+  margin-bottom: 1rem;
+}
+.wrapper .fixed-b {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+}
+.wrapper .fixed-b div {
+  display: flex;
+  text-align: center;
+}
+.wrapper .fixed-b div a {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0.8rem 0;
+  font-size: 1.6rem;
+}
+.wrapper .fixed-b div a img {
+  margin-right: 1rem;
+}
